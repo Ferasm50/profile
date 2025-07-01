@@ -1,0 +1,129 @@
+{
+  "name": "فراس محمد - مطور ويب محترف",
+  "short_name": "فراس محمد",
+  "description": "موقع شخصي لفراس محمد، مطور ويب محترف متخصص في تطوير المواقع والتطبيقات الحديثة باستخدام أحدث التقنيات",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["portfolio", "developer", "web-development", "technology"],
+  "icons": [
+    {
+      "src": "images/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "الصفحة الرئيسية - عرض سطح المكتب"
+    },
+    {
+      "src": "images/screenshot-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "الصفحة الرئيسية - عرض الهاتف المحمول"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "المشاريع",
+      "short_name": "المشاريع",
+      "description": "عرض أعمالي ومشاريعي",
+      "url": "/#projects",
+      "icons": [
+        {
+          "src": "images/icon-projects.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "التواصل",
+      "short_name": "التواصل",
+      "description": "تواصل معي مباشرة",
+      "url": "/#contact",
+      "icons": [
+        {
+          "src": "images/icon-contact.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "المدونة",
+      "short_name": "المدونة",
+      "description": "اقرأ مقالاتي التقنية",
+      "url": "/#blog",
+      "icons": [
+        {
+          "src": "images/icon-blog.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://firas-mohammed.com"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
+

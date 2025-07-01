@@ -1,0 +1,65 @@
+User-agent: *
+Allow: /
+
+# ملفات CSS و JavaScript
+Allow: /style.css
+Allow: /style_enhanced.css
+Allow: /main.js
+Allow: /main_enhanced.js
+
+# الصور والأصول
+Allow: /images/
+Allow: /assets/
+
+# الخطوط
+Allow: /fonts/
+
+# ملفات مهمة لمحركات البحث
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# منع الوصول للملفات الحساسة
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /config/
+Disallow: /temp/
+Disallow: /cache/
+
+# السماح لمحركات البحث الرئيسية
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# خريطة الموقع
+Sitemap: https://firas-mohammed.com/sitemap.xml
+
+# معدل الزحف (اختياري)
+Crawl-delay: 1
+
